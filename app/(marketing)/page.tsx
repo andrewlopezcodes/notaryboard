@@ -45,7 +45,7 @@ const MarketingPage = () => {
           text-center
           text-neutral-800
           mb-6">
-            NotaryBoard helps notaries move
+            Clipboard by helps notaries move
         </h1>
         <div className="text-3xl 
           md:text-6xl
@@ -66,11 +66,11 @@ const MarketingPage = () => {
         textFont.className,
       )}>
         Collaborate, manage notarizations, and reach new productivity peaks. 
-        From the office, to mobile notarizations, stay organized with NotaryBoard. 
+        From the office, to mobile notarizations, stay organized with Clipboard. 
       </div>
       <Button className="mt-6 bg-black" size="lg" asChild>
         <Link href="/sign-up">
-          Get NotaryBoard for free
+          Get Clipboard for free
         </Link>
       </Button>
     </div>
