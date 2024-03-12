@@ -1,11 +1,33 @@
-import {Button } from "@/components/ui/button";
-import {Medal} from "lucide-react";
 import Link from "next/link";
+import localFont from "next/font/local";
+import { Roboto } from "next/font/google";
+import {Medal} from "lucide-react";
+
+import {cn} from "@/lib/utils";
+import {Button } from "@/components/ui/button";
+
+const headingFont = localFont({
+  src: "../../public/fonts/font.woff2"
+});
+
+const textFont = Roboto({
+  subsets: ['latin'],
+  weight: [
+    "100",
+    "300",
+    "400",
+    "500",
+    "700",
+    "900"
+  ],
+})
 
 const MarketingPage = () => {
   return (
     <div className="flex items-center justify-center flex-col">
-      <div className="flex items-center justify-center flex-col">
+      <div className={cn("flex items-center justify-center flex-col",
+        headingFont.className,
+        )}>
         <div className="mb-4 flex 
           items-center 
           border 
@@ -39,13 +61,10 @@ const MarketingPage = () => {
             notarizations forward
         </div>
       </div>
-      <div className="text-sm
-      md:text-xltext-neutral-400
-      mt-4
-      max-w-xs
-      md:max-w-2xl
-      text-center
-      mx-auto">
+      <div className={cn(
+        "text-sm md:text-xl text-neutral-400 mt-4 max-w-xs md:max-w-2xl text-center mx-auto",
+        textFont.className,
+      )}>
         Collaborate, manage notarizations, and reach new productivity peaks. 
         From the office, to mobile notarizations, stay organized with NotaryBoard. 
       </div>
