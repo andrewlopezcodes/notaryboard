@@ -1,4 +1,7 @@
+import {Button } from "@/components/ui/button";
 import {Medal} from "lucide-react";
+import Link from "next/link";
+
 const MarketingPage = () => {
   return (
     <div className="flex items-center justify-center flex-col">
@@ -42,8 +45,15 @@ const MarketingPage = () => {
       max-w-xs
       md:max-w-2xl
       text-center
-      mx-auto">Collaborate, manage notarizations, and reach new productivity peaks. 
-        From the office, to mobile notarizations, stay organized with NotaryBoard. </div>
+      mx-auto">
+        Collaborate, manage notarizations, and reach new productivity peaks. 
+        From the office, to mobile notarizations, stay organized with NotaryBoard. 
+      </div>
+      <Button className="mt-6 bg-black" size="lg" asChild>
+        <Link href="/sign-up">
+          Get NotaryBoard for free
+        </Link>
+      </Button>
     </div>
   );
 };
