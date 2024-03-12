@@ -1,4 +1,0 @@
-Fullstack Trello Clone: Next.js 14, Server Actions, React, Prisma, Stripe, Tailwind, MySQL
-Code with Antonio
-https://www.youtube.com/watch?v=pRybm9lXW2c&t=53s
-day 1 3/15/2024
