@@ -45,7 +45,7 @@ const MarketingPage = () => {
           text-center
           text-neutral-800
           mb-6">
-            Clipboard by helps notaries move
+            Clipboard helps notaries move
         </h1>
         <div className="text-3xl 
           md:text-6xl
