@@ -54,7 +54,7 @@ const MarketingPage = () => {
           to-gray-400
           text-white
           px-4 
-          p-2 
+          pt-4 
           rounded-md 
           pb-4 
           w-fit">
