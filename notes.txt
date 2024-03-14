@@ -4,6 +4,9 @@ https://www.youtube.com/watch?v=pRybm9lXW2c&t=53s
 day 1 3/15/2024
 
 to start the server the command is npm run dev
+================================================================================
+
+*** Technologies Used in this build ***
 
 added lucideReact to project
 https://lucide.dev/guide/packages/lucide-react
@@ -14,3 +17,25 @@ https://ui.shadcn.com/docs/installation/next
 npx shadcn-ui@latest init
 npx shadcn-ui@latest add button
 
+added usehooks-ts
+https://usehooks-ts.com/
+npm i usehooks-ts 
+
+added clerk
+https://clerk.com/
+npm install @clerk/nextjs
+
+added shadcn skeleton
+https://ui.shadcn.com/docs/components/skeleton
+npx shadcn-ui@latest add skeleton
+
+added shadcn accordian
+https://ui.shadcn.com/docs/components/accordion
+npx shadcn-ui@latest add accordion
+
+added shadcn Separator
+https://ui.shadcn.com/docs/components/Separator
+npx shadcn-ui@latest add separator
+==================================================================================
+
+left off today at https://youtu.be/pRybm9lXW2c?t=5932
