@@ -2,6 +2,7 @@ import { Logo } from "@/components/logo";
 import { Button } from "@/components/ui/button";
 import { OrganizationSwitcher, UserButton } from "@clerk/nextjs";
 import { Plus } from "lucide-react";
+import { MobileSidebar } from "./mobile-sidebar";
 
 export const Navbar = () =>{
   return(
@@ -16,6 +17,7 @@ export const Navbar = () =>{
       bg-white
       flex
       items-center">
+        <MobileSidebar />
         <div className="flex
           items-center
           gap-x-4">
