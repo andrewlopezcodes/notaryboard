@@ -36,6 +36,32 @@ npx shadcn-ui@latest add accordion
 added shadcn Separator
 https://ui.shadcn.com/docs/components/Separator
 npx shadcn-ui@latest add separator
+
+added shadcn Sheet
+https://ui.shadcn.com/docs/components/sheet
+npx shadcn-ui@latest add sheet
+
+added zustand
+https://docs.pmnd.rs/zustand/getting-started/introduction
+npm i zustand
+
+added filess.io database
+https://dash.filess.io/#/app/databases/v1/80b8f681-cc3a-4a24-9f08-f81ce23342c9
+
+
+
+added Prisma
+https://www.prisma.io/docs/getting-started
+npm install -D prisma
+npx prisma init
+npx prisma generate
+npm install @prisma/client
+
+
+added Zod
+https://zod.dev/
+npm install zod
+
 ==================================================================================
 
-left off today at https://youtu.be/pRybm9lXW2c?t=5932
+left off today at https://youtu.be/pRybm9lXW2c?t=11428
