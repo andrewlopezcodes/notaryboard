@@ -71,8 +71,8 @@ const onClick = (href: string)=>{
       <AccordionTrigger 
         onClick={()=> onExpand(organization.id)}
         className={cn(
-        "flex items-center gap-x-2 p-1.5 text-neutral-700 rounded-md hover:bg-neutral-500/10 transition text-start no-undeline hover:no-underline", 
-        isActive && !isExpanded && "bg-sky-500/10 text-sky-700")}
+        "flex items-center gap-x-2 p-1.5 text-neutral-700 rounded-md hover:bg-neutral-500/10  transition text-start no-underline hover:no-underline", 
+        isActive && !isExpanded && "bg-zinc-400 text-black")}
         >
           <div className="flex items-center gap-x-2">
             <div className="w-7 h-7 relative">
@@ -95,7 +95,7 @@ const onClick = (href: string)=>{
             size="sm"
             onClick={()=>onClick(route.href)}
             className={cn("w-full font-normal justify-start pl-10 mb-1",
-            pathname === route.href && "bg-sky-500/10 text-sky-700"
+            pathname === route.href && "bg-zinc-400 text-black"
             )}
             variant="ghost"
           >
