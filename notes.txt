@@ -71,6 +71,10 @@ add shadcn label
 https://ui.shadcn.com/docs/components/label
 npx shadcn-ui@latest add label
 
+
+add shadcn tooltip
+https://ui.shadcn.com/docs/components/tooltip
+npx shadcn-ui@latest add tooltip
 ==================================================================================
 
-left off today at https://youtu.be/pRybm9lXW2c?t=16683
+left off today at https://youtu.be/pRybm9lXW2c?t=17332
