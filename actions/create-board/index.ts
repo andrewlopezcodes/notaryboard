@@ -21,7 +21,6 @@ const {title} = data;
 let board;
 
 try{
-  throw new Error("blabla");
   board = await db.board.create({
     data: {
       title,

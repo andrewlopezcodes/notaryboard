@@ -62,6 +62,15 @@ added Zod
 https://zod.dev/
 npm install zod
 
+
+add shadcn input
+https://ui.shadcn.com/docs/components/input
+npx shadcn-ui@latest add input
+
+add shadcn label
+https://ui.shadcn.com/docs/components/label
+npx shadcn-ui@latest add label
+
 ==================================================================================
 
-left off today at https://youtu.be/pRybm9lXW2c?t=11428
+left off today at https://youtu.be/pRybm9lXW2c?t=14348
