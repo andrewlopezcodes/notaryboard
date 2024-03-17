@@ -75,6 +75,14 @@ npx shadcn-ui@latest add label
 add shadcn tooltip
 https://ui.shadcn.com/docs/components/tooltip
 npx shadcn-ui@latest add tooltip
+
+add shadcn popover
+https://ui.shadcn.com/docs/components/popover
+npx shadcn-ui@latest add popover
+
+add sonner
+https://sonner.emilkowal.ski/
+npm install sonner
 ==================================================================================
 
 left off today at https://youtu.be/pRybm9lXW2c?t=17332
