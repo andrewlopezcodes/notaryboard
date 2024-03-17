@@ -73,4 +73,4 @@ npx shadcn-ui@latest add label
 
 ==================================================================================
 
-left off today at https://youtu.be/pRybm9lXW2c?t=14348
+left off today at https://youtu.be/pRybm9lXW2c?t=16683
