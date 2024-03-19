@@ -120,7 +120,8 @@ export const FormPicker = ({
                 text-[10px]
                 truncate
                 text-white
-                hover:underlinep-1
+                hover:underline
+                p-1
                 gb-black/50"
               >
                 {image.user.name}
