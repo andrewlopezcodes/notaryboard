@@ -1,3 +1,6 @@
-import {createClient} from 'pexels';
+import {createApi} from "unsplash-js";
 
-export const pexels = createClient('zV276PaeMatcP7CmusTbVYfHPi6XMWS8xzxOZ8wBF87Wo0oHZrp3UoVk');
+export const unsplash = createApi({
+  accessKey: process.env.NEXT_PUBLIC_UNSPLASH_ACCESS_KEY!,
+  fetch: fetch,
+});

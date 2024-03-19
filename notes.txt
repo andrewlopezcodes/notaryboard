@@ -84,9 +84,11 @@ add sonner
 https://sonner.emilkowal.ski/
 npm install sonner
 
-add pexels
-https://www.pexels.com/api/documentation/
-npm i pexels
+add unsplash
+https://unsplash.com/documentation
+npm in unsplash-js
+
+
 ==================================================================================
 
 left off today at https://youtu.be/pRybm9lXW2c?t=18421
