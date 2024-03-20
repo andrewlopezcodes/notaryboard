@@ -88,7 +88,10 @@ add unsplash
 https://unsplash.com/documentation
 npm in unsplash-js
 
-
+add lodash
+https://lodash.com
+npm install lodash
+npm i -D @types/lodash
 ==================================================================================
 
-left off today at https://youtu.be/pRybm9lXW2c?t=18421
+left off today at https://youtu.be/pRybm9lXW2c?t=21588
