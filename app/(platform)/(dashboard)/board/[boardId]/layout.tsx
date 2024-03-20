@@ -2,6 +2,7 @@ import { db } from "@/lib/db";
 import { auth } from "@clerk/nextjs";
 import Image from "next/image";
 import {notFound, redirect } from "next/navigation";
+import { BoardNavbar } from "./_components/board-navbar";
 
 export async function generateMetadata({
   params
@@ -68,6 +69,8 @@ export async function generateMetadata({
         layout="fill"
         objectFit='cover'
         />
+        <div className="absolute inset-0 bg-black/20"/>
+        <BoardNavbar data={board} />
         <main
           className="relative pt-28 h-full">
           {children}

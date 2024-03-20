@@ -92,6 +92,34 @@ add lodash
 https://lodash.com
 npm install lodash
 npm i -D @types/lodash
+
+code adjustment for \app\(platform)\(dashboard)\board\[boardId]\layout.tsx
+used this return statement because the Trailwind Css wouldn't render properly.
+youtube video: https://youtu.be/rb6fOQ4LfrE
+return (
+    <>
+    <div
+      style={{
+        zIndex: -1,
+        position:"fixed",
+        width:"100vw",
+        height: "100vh",
+    }}>
+      <Image
+        src={board.imageFullUrl}
+        alt="background Image"
+        layout="fill"
+        objectFit='cover'
+        />
+        <main
+          className="relative pt-28 h-full">
+          {children}
+        </main>     
+      </div>
+    </>
+    
+  );
+
 ==================================================================================
 
 left off today at https://youtu.be/pRybm9lXW2c?t=21588
