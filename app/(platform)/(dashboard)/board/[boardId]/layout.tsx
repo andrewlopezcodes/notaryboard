@@ -3,6 +3,33 @@ import { auth } from "@clerk/nextjs";
 import Image from "next/image";
 import {notFound, redirect } from "next/navigation";
 
+export async function generateMetadata({
+  params
+}: {
+  params: {
+    boardId: string;
+  }
+}) {
+  const {orgId} = auth();
+
+  if(!orgId){
+    return {
+      title: "Board",
+    }
+  }
+
+  const board = await db.board.findUnique({
+    where: {
+      id: params.boardId,
+      orgId
+    }
+  });
+
+  return {
+    title: board?.title || "Board",
+  };
+}
+
  const BoardIdLayout = async ({
   children,
   params,
