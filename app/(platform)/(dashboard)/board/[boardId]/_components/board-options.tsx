@@ -61,7 +61,9 @@ export const BoardOptions = ({id}:BoardOptionsProps) =>{
             px-5 
             justify-start 
             font-normal 
-            text-sm"
+            text-sm
+            text-white
+            bg-black"
         >
           Delete this board
         </Button>
